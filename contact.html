@@ -76,7 +76,11 @@
         <!-- MAP Section -->
         <article class="mapArticle">
           <h3>My Google Maps Demo</h3>
+          <label for="startLocation">Enter your starting location:</label>
+          <input type="text" id="startLocation" />
+          <button onclick="calculateDistanceAndTime()">Calculate</button>
           <div class="mapDiv" id="map" style="height: 400px"></div>
+          <div id="result">It will take:</div>
         </article>
       </section>
     </main>
