@@ -1,0 +1,94 @@
+/* PROJECTS Main section */
+
+.project-container {
+  height: 70vh;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.main-frame-project {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-frame-title {
+  padding-bottom: 5px;
+  font-size: 3.5em;
+  font-weight: 400;
+  color: rgb(232, 233, 237);
+}
+
+.project-frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-cards {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.card > h4 {
+  color: rgb(37, 59, 79);
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.card > p {
+  padding: 1em;
+  font-weight: 300;
+}
+
+.project-picture {
+  width: 60%;
+  height: auto;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+.frame-project-btn {
+  display: flex;
+  justify-content: center;
+  padding: 1.5em;
+}
+
+.project-1,
+.project-3 {
+  background-color: rgb(186, 191, 209);
+}
+
+.project-2,
+.project-4 {
+  background-color: rgb(147, 154, 183);
+}
+
+.project-btn {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: rgb(117, 121, 137);
+  border-radius: 5px;
+  color: rgb(39, 34, 34);
+  padding: 15px;
+  height: auto;
+  width: 50%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.project-btn:hover {
+  background-color: rgb(72, 113, 150);
+}

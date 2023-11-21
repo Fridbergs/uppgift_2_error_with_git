@@ -1,0 +1,110 @@
+/* Contact Page specific Styling */
+
+/* CONTACT Main section */
+.contact-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactArticle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-transform: uppercase;
+  height: auto;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.contactArticle > h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact-info-text {
+  padding-left: 5px;
+}
+.text-title {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: rgb(2, 1, 1);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact-info a:hover {
+  text-decoration: none;
+  color: brown;
+}
+
+.mapArticle {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 80%;
+}
+
+.mapDiv {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 3rem;
+}
+
+.distanceDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+  gap: 1.5em;
+  padding: 2em;
+}
+
+.locationBtn {
+  width: auto;
+  height: 40px;
+  background-color: rgb(213, 215, 222);
+  border: none;
+  padding: 0px 15px 0px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.inputAdress {
+  height: 40px;
+  width: 300px;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  background-color: transparent;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+gmp-map {
+  height: 100%;
+}

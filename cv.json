@@ -1,0 +1,69 @@
+{
+  "Profile info": {
+    "name": "Linus Fridberg",
+    "cvIntro": "An ambitious young business professional with an entrepreneurial flair, fueled by a thirst for technical knowledge and innovation."
+  },
+  "workExperience": {
+    "workExperienceTitle": "Work Experience",
+    "company1": "Partnerships Manager - Urban Future",
+    "company2": "Country Manager - Diffo Solutions",
+    "company3": "Sales Manager Sweden - Noux Node",
+    "company4": "Business Development Manager - Precise Biometrics",
+    "company5": "IoT Implementation Specialist - Bobst Mex SA",
+    "company6": "Inside Sales Executive & Connected Services Specialist - Max ASP"
+  },
+  "educationalBackground": {
+    "educationalBackgroundTitle": "Educational Background",
+    "school1Title": "Sälj&Marknadshögskolan",
+    "school1Course1": "Projektmetodik",
+    "school1Course2": "Marknadsföring",
+    "school1Course3": "B2B Marketing",
+    "school1Course4": "Företagsekonomi",
+    "school1Course5": "Försäljning",
+    "school1Course6": "Internationell försäljning",
+    "school1Course7": "Internationell affärsjuridik",
+    "school1Course8": "Retorik",
+    "school1Course9": "Digital Media/IT",
+    "school1Course10": "Affärsengelska",
+    "school1Course11": "LIA",
+    "school1Course12": "Examensarbete",
+    "school2Title": "Chas Academy",
+    "school2Course1": "IT Tech and Operations",
+    "school2Course2": "Webbutveckling och Webbteknik",
+    "school2Course3": "Projektmetodik och agila metoder",
+    "school2Course4": "Frontendutveckling och UX",
+    "school2Course5": "Backendutveckling och API:er",
+    "school2Course6": "React",
+    "school2Course7": "Hosting, CI/CD och arbetsmetodik",
+    "school2Course8": "TypeScript",
+    "school2Course9": "Vue.js",
+    "school2Course10": "LIA",
+    "school2Course11": "Examensarbete"
+  },
+  "skills": {
+    "skillsTitle": "Skills",
+    "skill1": "Business Development",
+    "skill2": "Account Management",
+    "skill3": "Relationship Management",
+    "skill4": "Prospecting",
+    "skill5": "Negotiation",
+    "skill6": "CRM",
+    "skill7": "Machine PLCs",
+    "skill8": "IoT",
+    "skill9": "Salesforce",
+    "skill10": "HubSpot",
+    "skill11": "Tableau",
+    "skill12": "SAP",
+    "skill13": "Trello",
+    "skill14": "Sustainability",
+    "skill15": "HTML",
+    "skill16": "CSS",
+    "skill17": "JavaScript"
+  },
+  "highlights": {
+    "highlightsTitle": "Highlights",
+    "highlight1": "Founded Fridberg Sales Consulting",
+    "highlight2": "IoT Implementation Specialist for BOBST",
+    "highlight3": "Chas Academy Student"
+  }
+}

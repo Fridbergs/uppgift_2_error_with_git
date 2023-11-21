@@ -1,0 +1,15 @@
+{
+  "personalInfo": {
+    "name": "Linus Fridberg",
+    "address": "Ängdalavägen 37, 217 47, Malmö",
+    "email": "linus@fridbergs.com",
+    "phoneNumber": "+46 72 566 88 71"
+  },
+  "titles": {
+    "contactTitle": "Contact Details",
+    "nameTitle": "Name:",
+    "addressTitle": "Address:",
+    "emailTitle": "Email:",
+    "phoneNumberTitle": "Phone Number:"
+  }
+}

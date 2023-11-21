@@ -1,0 +1,335 @@
+/*  CV Page Specific Styling */
+
+.div-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+}
+
+.project-container {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin-bottom: 25px;
+}
+
+.intro-top {
+  display: grid;
+  grid-row: 1 / 2;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  border: 2px solid black;
+  height: auto;
+  padding: 1em;
+  background-color: whitesmoke;
+}
+
+.highlights {
+  display: grid;
+  grid-row: 2 / 3;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  border: 2px solid black;
+  height: auto;
+  padding: 1em;
+  background-color: white;
+}
+
+.skills {
+  display: grid;
+  grid-row: 3 / 4;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  border: 2px solid black;
+  height: auto;
+  padding: 1em;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.work-life-experience {
+  display: grid;
+  grid-row: 5 / auto;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  border: 2px solid black;
+  height: auto;
+  padding: 1em;
+  background-color: blanchedalmond;
+}
+
+.education-background {
+  display: grid;
+  grid-row: 6 / auto;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  border: 2px solid black;
+  height: auto;
+  padding: 1em;
+  background-color: antiquewhite;
+}
+
+.school-1 {
+  display: grid;
+  grid-row: 7 / auto;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  border: 2px solid black;
+  height: auto;
+  padding: 1em;
+  margin-left: 0px;
+  background-color: antiquewhite;
+}
+
+.school-2 {
+  display: grid;
+  grid-row: 7 / auto;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  border: 2px solid black;
+  height: auto;
+  padding: 1em;
+  background-color: antiquewhite;
+}
+
+/* Text styles */
+
+.slogan-text {
+  color: brown;
+  text-align: center;
+}
+
+.name-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: x-large;
+  padding: 0.5em;
+}
+
+.school-1,
+.school-2,
+.education-background,
+.work-life-experience > h2,
+h3 {
+  font-size: bold;
+  padding-bottom: 0.5em;
+}
+
+.highlights > h2 {
+  padding-bottom: 0.5em;
+}
+
+/* Skills styling */
+
+.skills > h2 {
+  padding-bottom: 0.5em;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  gap: 4px;
+}
+
+.btn-look-bd {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+
+.btn-look-am {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+.btn-look-rm {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+.btn-look-pr {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+
+.btn-look-neg {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+
+.btn-look-crm {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+
+.btn-look-bsm {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+
+.btn-look-mplc {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+
+.btn-look-iot {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+
+.btn-look-sf {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+
+.btn-look-ta {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+
+.btn-look-sa {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+
+.btn-look-tr {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+
+.btn-look-sus {
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  height: auto;
+  text-align: center;
+}
+
+/* FOOTER CSS */
+
+.footer-frame {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-frame > p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: rgb(96, 113, 150);
+  padding: 15px;
+  font-weight: bold;
+}
+
+.footer-items {
+  display: flex;
+  gap: 4em;
+  align-items: center;
+  height: 6vh;
+  align-self: center;
+}
+
+.fa-icons {
+  color: rgb(117, 121, 137);
+}
+
+.fa-icons:hover {
+  color: rgb(189, 69, 75);
+}
+
+.active {
+  color: brown;
+}
