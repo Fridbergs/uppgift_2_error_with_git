@@ -54,11 +54,24 @@
   color: brown;
 }
 
+/* Map section */
+
 .mapArticle {
   display: flex;
   flex-direction: column;
   align-self: center;
   width: 80%;
+  height: auto;
+}
+.distanceDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(213, 215, 222);
+  width: auto;
+  height: auto;
+  gap: 1.5em;
+  padding: 2em;
 }
 
 .mapDiv {
@@ -67,17 +80,8 @@
   align-self: center;
   justify-content: center;
   width: 100%;
-  height: auto;
+  height: 50dvh;
   margin-bottom: 3rem;
-}
-
-.distanceDiv {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: auto;
-  gap: 1.5em;
-  padding: 2em;
 }
 
 .locationBtn {
@@ -98,13 +102,6 @@
 .map {
   display: flex;
   flex-direction: column;
-  height: auto;
+  height: 50vh;
   width: 100%;
-  background-color: transparent;
-}
-
-/* Always set the map height explicitly to define the size of the div
- * element that contains the map. */
-gmp-map {
-  height: 100%;
 }

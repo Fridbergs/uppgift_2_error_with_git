@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Denna hemsida har som syfte att fungera som en platform för mig när jag studerar webbutveckling på chas."
+    />
     <script
       src="https://kit.fontawesome.com/e934b0f43d.js"
       crossorigin="anonymous"
     ></script>
-    <script
-      async
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCePGmogmGkgiP1WbwMNNrQcYsXc2JIPPU&callback=console.debug&libraries=maps,marker&v=beta"
-    ></script>
+
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./CSS/responsive.css" />
@@ -50,71 +51,53 @@
     <main>
       <section class="contact-details">
         <article class="contactArticle">
-        <h2 id="contactTitle"></h2>
-
-        <div class="contact-info">
-          <p id="nameTitle" class="text-title"></p> <p id="name" class="contact-info-text"></p>
-        </div>
-
-        <div class="contact-info">
-          <p id="addressTitle" class="text-title">:</p> <p id="address" class="contact-info-text"></p></p>
-        </div>
-
-        <div class="contact-info">
-          <p id="emailTitle" class="text-title"></p> <p id="email" class="contact-info-text"></p><a href="mailto:linus@fridbergs.com"
-            ></p></a>
-        </div>
-
-        <div class="contact-info">
-          <p id="phoneNumberTitle" class="text-title"></p> <p id="phoneNumber" class="contact-info-text"></p></p>
-        </div>
-      </article>
-
-      <article class="mapArticle">
-
-        <div class="mapDiv">    
-
+          <h2 id="contactTitle"></h2>
+          <div class="contact-info">
+            <p id="nameTitle" class="text-title"></p>
+            <p id="name" class="contact-info-text"></p>
           </div>
-      </article>
+
+          <div class="contact-info">
+            <p id="addressTitle" class="text-title"></p>
+            <p id="address" class="contact-info-text"></p>
+          </div>
+
+          <div class="contact-info">
+            <p id="emailTitle" class="text-title"></p>
+            <p id="email" class="contact-info-text"></p>
+            <a href="mailto:linus@fridbergs.com"></a>
+          </div>
+
+          <div class="contact-info">
+            <p id="phoneNumberTitle" class="text-title"></p>
+            <p id="phoneNumber" class="contact-info-text"></p>
+          </div>
+        </article>
+        <!-- MAP Section -->
+        <article class="mapArticle">
+          <h3>My Google Maps Demo</h3>
+          <div class="mapDiv" id="map" style="height: 400px"></div>
+        </article>
       </section>
-      <form id="locationForm">
-        <label for="userLocation">Your Location:</label>
-        <input type="text" id="userLocation" placeholder="Enter your location">
-        <button type="button" onclick="calculateDistance()">Calculate Distance</button>
-      </form>
-      <div id="map2" style="height: 400px; width: 100%;">  
-        <gmp-map center="55.592529296875,12.97431755065918" zoom="14" map-id="DEMO_MAP_ID">
-        <gmp-advanced-marker position="presetLocation" title="My location">
-        </gmp-advanced-marker>
-      </gmp-map> </div>
-
-    
-
-
-
-
-
-
-
-  </main>
-  <!--  Footer -->
-  <footer class="main-footer-frame">
-    <section class="footer-frame">
-      <article class="footer-items">
-        <a href="mailto:linus@fridbergs.com?subject=I like your work"
-          ><i class="fa-icons fa-regular fa-envelope fa-2xl"></i
-        ></a>
-        <a href="https://www.linkedin.com/in/fridberg/" target="_blank"
-          ><i class="fa-icons fa-brands fa-linkedin fa-2xl"></i
-        ></a>
-        <a href="https://github.com/Fridbergs" target="_blank"
-          ><i class="fa-icons fa-brands fa-github fa-2xl"></i
-        ></a>
-      </article>
-      <p>Copyright &copy Linus Fridberg</p>
-    </section>
-  </footer>
-  <script src="contact.js"></script>
-  <script src="extern.js"></script>
+    </main>
+    <!--  Footer -->
+    <footer class="main-footer-frame">
+      <section class="footer-frame">
+        <article class="footer-items">
+          <a href="mailto:linus@fridbergs.com?subject=I like your work"
+            ><i class="fa-icons fa-regular fa-envelope fa-2xl"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/fridberg/" target="_blank"
+            ><i class="fa-icons fa-brands fa-linkedin fa-2xl"></i
+          ></a>
+          <a href="https://github.com/Fridbergs" target="_blank"
+            ><i class="fa-icons fa-brands fa-github fa-2xl"></i
+          ></a>
+        </article>
+        <p>Copyright &copy Linus Fridberg</p>
+      </section>
+    </footer>
+    <script src="contact.js"></script>
+    <script src="extern.js"></script>
   </body>
 </html>
