@@ -98,6 +98,68 @@
                 title="Denna knapp länkar till mitt första project på Chas Academy"
                 >Mer info</a
               >
+              <button
+                data-modal-target="#modal"
+                class="modal-Button"
+                id="modalButton"
+              >
+                Play Game
+              </button>
+              <div class="modal active" id="modal">
+                <div class="modal-Header">
+                  <div class="modal-Title">
+                    Choose a number between 1 and 100
+                  </div>
+                  <button data-close-Button class="close-Button">
+                    &times;
+                  </button>
+                </div>
+                <div class="modal-Body">
+                  <section class="mainSection">
+                    <button id="generateNumberBtn">Starta spelet</button>
+                    <article>
+                      <div>
+                        <h2>Vilket nummer tänker jag på?</h2>
+                        <label for="input"></label>
+                        <input
+                          id="inputNumber"
+                          class="input"
+                          type="text"
+                          placeholder="Ange ett nummer mellan 1 & 100"
+                        />
+                        <button id="checkNumberBtn">Gissa</button>
+                      </div>
+                      <div class="previous-guesses">
+                        <h2>Senaste gissningar</h2>
+                        <ul class="guessesList" id="lastGuess"></ul> 
+                      </div>
+                      <div class="hints">
+                        <p id="hints"></p>
+                      </div>
+                      </div>
+                      <div class="guesses-left">
+                        <p id="guessesLeft"></p>
+                      </div>
+                      <br>
+                    </article>
+                    <div class="instructions">
+                      <h2>Instruktioner</h2>
+                      <ol class="instructionsList">
+                        <li>Klicka på <b>Starta spelet</b> för att börja spela</li>
+                        <li>Skriv in ett nummer i fältet <b>"Ditt nummer"</b></li>
+                        <li>
+                          Klicka på <b>"Kolla ditt nummer"</b> för att se om du gissade
+                          rätt
+                        </li>
+                        <li>Du har fem försök att gissa rätt nummer</li>
+                      </ol>
+                    </div>
+                  </section>
+                  <button id="regenerateNumberBtn">Spela igen</button>
+                </div>
+              </div>
+            </div>
+            <div class="active" id="overlay"></div>
           </article>
         </section>
       </section>
